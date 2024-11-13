@@ -1,0 +1,81 @@
+body{
+    margin: 8px;
+    padding: 0px;
+    background-image: url(mini.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+div,h1{
+    color: rgb(230, 226, 226);
+    margin: 0px;
+    float: left;
+}
+
+button{
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px 5px 10px 60px;
+    color: rgb(230, 226, 226);
+    background-color: transparent;
+    border-color: transparent;
+    border-bottom-color: rgb(230, 226, 226);
+    text-transform: uppercase;
+
+}
+
+
+
+.bar{
+    color: rgb(230, 226, 226);
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    background-color:rgba(193, 57, 15, 0.53);
+    float: left;
+    border-radius: 5px;
+}
+
+
+.title{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    margin: 10px 50% 10px 10px; 
+    color: rgb(230, 226, 226);
+    box-sizing: border-box;
+    float: left;
+}
+
+.cont{
+    margin: 10% 38%;
+    background: rgba(234, 106, 67, 0.577);
+    width: auto;
+    height: 250px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.input-design{
+    margin: 5px;
+    padding: 10px 100px 10px 5px;
+    background: transparent;
+    border-color: transparent;
+    border-bottom-color: aliceblue;  
+    color:aliceblue;  
+}
+
+h2{
+    text-align: center;
+    margin: 10px 10px 50px 10px;
+    font-size: 30px;
+
+}
+
+.submit{
+    margin: 25px 0 25px 5px;
+    padding: 5px;
+    background: aliceblue;
+    border-color: aliceblue;
+    border-style: none;
+    border-bottom-color: aliceblue;
+}
